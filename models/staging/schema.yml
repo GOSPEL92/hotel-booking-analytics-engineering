@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: raw
+    database: HOTEL_BOOKING_ANALYTICS
+    schema: RAW
+
+    tables:
+      - name: RAW_HOTEL_BOOKINGS
+        description: Raw hotel booking data loaded into Snowflake.
+
+models:
+  - name: stg_hotel_bookings
+    description: Cleaned hotel booking records prepared for analytical consumption.
+
+  - name: quarantine_hotel_bookings
+    description: Records failing data quality rules and excluded from downstream analytics models.
