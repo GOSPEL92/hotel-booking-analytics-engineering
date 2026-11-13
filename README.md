@@ -1,5 +1,7 @@
 # Hotel Booking Analytics Engineering Platform
 
+ ![dbt CI/CD Pipeline](https://github.com/GOSPEL92/hotel-booking-analytics-engineering/actions/workflows/dbt_ci.yml/badge.svg)
+
 ## Overview
 
 This project demonstrates an end-to-end Analytics Engineering workflow using Snowflake and dbt.
