@@ -1,5 +1,3 @@
-version: 2
-
 models:
 
   - name: dim_country
@@ -32,7 +30,21 @@ models:
       - name: market_segment
         tests:
           - not_null
-        
+
+  - name: dim_date
+    description: "Conformed calendar date dimension supporting time-series booking analytics."
+    columns:
+      - name: date_day
+        description: "Primary key representing each calendar date."
+        tests:
+          - unique
+          - not_null
+      - name: year_number
+        description: "Calendar year (e.g., 2015, 2016, 2017)."
+        tests:
+          - not_null
+      - name: is_weekend
+        description: "Boolean flag indicating whether the date falls on a Saturday or Sunday."
 
   - name: fct_bookings
     columns:

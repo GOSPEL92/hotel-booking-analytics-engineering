@@ -409,7 +409,7 @@ Validation successfully confirmed:
 ### Setup & Execution
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/<your-repo-name>.git
+   git clone [https://github.com/GOSPEL92/hotel-booking-analytics-engineering.git](https://github.com/GOSPEL92/hotel-booking-analytics-engineering.git)
    cd hotel_booking_analytics_project
 ---
 ## Project Screenshots
