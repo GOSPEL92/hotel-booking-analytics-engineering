@@ -497,7 +497,6 @@ Automated dbt testing was implemented to validate model integrity and analytical
 
 - Incremental dbt models
 - Snapshot implementation
-- CI/CD deployment pipelines
 - Power BI dashboards
 - Booking revenue forecasting
 - Advanced customer segmentation
