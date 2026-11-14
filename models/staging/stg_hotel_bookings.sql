@@ -22,7 +22,7 @@ select
 
     meal,
 
-    country,
+    coalesce(nullif(trim(country), ''), 'Unknown') as country,
 
     market_segment,
 
