@@ -473,7 +473,11 @@ The architecture follows a layered Analytics Engineering approach:
 Automated dbt testing was implemented to validate model integrity and analytical readiness.
 
 ---
+## Power BI Dimensional Model (Star Schema)
+![alt text](screenshots/powerbi_star_schema.png)
 
+Validation of the Kimball Star Schema inside Power BI Desktop, confirming active one-to-many (`1:*`) relationships between `fct_bookings` and all conformed dimension tables (`dim_hotel`, `dim_country`, `dim_customer_type`, `dim_market_segment`).
+---
 ## Documentation & Supporting Analyses
 
 ### Domain & Quality Documentation (`documentation/`)
@@ -506,8 +510,6 @@ Automated dbt testing was implemented to validate model integrity and analytical
 ## Future Enhancements
 
 - Incremental dbt models
-- Snapshot implementation
-- Power BI dashboards
 - Booking revenue forecasting
 - Advanced customer segmentation
 - Data observability monitoring
