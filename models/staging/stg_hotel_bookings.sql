@@ -24,7 +24,7 @@ select
 
     coalesce(nullif(trim(country), ''), 'Unknown') as country,
 
-    market_segment,
+   coalesce(nullif(trim(market_segment), ''), 'Unknown') as market_segment,
 
     distribution_channel,
 
