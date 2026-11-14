@@ -21,6 +21,16 @@ The project follows modern Analytics Engineering practices including:
 
 ---
 
+### Business Problem
+
+- Hotel booking systems generate large volumes of reservation data from multiple customer segments, booking channels, and hotel locations.
+ Raw operational data often contains quality issues, missing values, invalid records, and inconsistent business attributes that limit its usefulness for analytical reporting.
+
+The objective of this project is to design and implement an Analytics Engineering platform that transforms raw hotel booking data into trusted, analytics-ready datasets. The solution provides a structured data model, data quality framework, automated validation, and documentation to support accurate business reporting and decision-making.
+
+The platform enables analysis of booking trends, customer behavior, cancellation patterns, market segments, hotel performance, and Average Daily Rate (ADR) metrics.
+
+---
 ## Technology Stack
 
 ### Cloud Data Warehouse
